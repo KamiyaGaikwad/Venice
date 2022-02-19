@@ -1,0 +1,140 @@
+@import url("https://infusify.netlify.app/styles/Infusify.css");
+
+
+.nav .btn-primary{
+    padding:0.6em 0.8em;
+}
+
+.nav .badge{
+    margin:0 1em;
+}
+
+.nav .cart-icon{
+    margin-left: 0;
+}
+
+.nav .badge i{
+    font-size: 1.7em;
+    color: var(--light-pink);
+}
+
+.nav .brand{
+    text-decoration: none;
+}
+.nav .badge a{
+    cursor: pointer;
+}
+
+.themes{
+    margin: 2em;
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.theme-color{
+    width:13%;
+    height:100px;
+    border-radius: 0.3em;
+    display: flex;
+    justify-content: end;
+    padding: 1em;
+    font-size: 1.4rem;
+    align-items: flex-end;
+    cursor: pointer;
+}
+
+.theme-red{
+    background: #ED213A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.theme-orange{
+    background: #fc4a1a;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f7b733, #fc4a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.theme-yellow{
+    background: #F2994A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.theme-green{
+    background: #76b852;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #8DC26F, #76b852);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #8DC26F, #76b852); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.theme-blue{
+    background: #00B4DB;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.theme-indigo{
+    background: #0575E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.theme-violet{
+    background: #8E2DE2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.alert-container{
+    width:50%;
+    margin: auto;
+    margin-top: 1em;
+}
+
+.grid-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery{
+    display:flex;
+    justify-content: space-around;
+}
+
+.card-horizontal-image-text .card-text{
+    display:block;
+    position: relative;
+    bottom:-10px;
+    color:var(--black);
+    padding-left: 35%;
+}
+
+.card-horizontal-image-text{
+    background-color: var(--background-gray);
+    position: relative;
+}
+
+.card-horizontal-image-text .card-img-1{
+    width:120px;
+    height:150px;
+    position: absolute;
+    top: 10px;
+}
+
+.card-horizontal-image-text .card-body{
+    top:12px;
+}
+
+.card{
+    width:40%;
+}
