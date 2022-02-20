@@ -8,10 +8,6 @@
 .flex-container{
     display:flex;
 }
-.flex-rows{
-    flex-direction: row;
-}
-
 .flex-columns{
     flex-direction: column;
 }
