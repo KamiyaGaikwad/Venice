@@ -1,5 +1,10 @@
 @import url("https://infusify.netlify.app/styles/Infusify.css");
 
+:root{
+    --blue-hover:rgb(22, 84, 134);
+    --pink-hover:rgb(216, 144, 216);
+}
+
 .flex-container{
     display:flex;
 }
@@ -156,3 +161,11 @@
       font-size: 0.5em;
     }
   }
+
+.card-btn-1:hover{
+    background-color:var(--blue-hover);
+}
+
+.card-btn-2:hover{
+    background-color:var(--pink-hover);
+}
