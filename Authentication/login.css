@@ -72,3 +72,7 @@
     font-size:2rem;
     font-family: var(--brand-font);
 }
+
+a{
+    text-decoration: none;
+}
