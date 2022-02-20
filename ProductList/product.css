@@ -14,7 +14,6 @@
 .nav-vertical{
     grid-area: aside;
     background-color: var(--container-border-white);
-    /* height: calc(100vh - 9%); */
     height:100vh;
     padding:2rem;
     width:max-content;
