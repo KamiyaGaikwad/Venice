@@ -11,28 +11,6 @@
     flex-direction: column;
 }
 
-.nav-vertical{
-    grid-area: aside;
-    background-color: var(--container-border-white);
-    /* height: calc(100vh - 9%); */
-    height:100vh;
-    padding:2rem;
-    width:max-content;
-    position: sticky;
-    top:0px;
-    bottom:100px;
-    overflow-y: scroll;
-}
-
-.nav-vertical .btn-link{
-    background-color: transparent;
-    font-size:1.2rem;
-    color:var(--hot-pink);
-    padding:0;
-    padding-top: 0.4rem;
-    margin-left:3rem;
-}
-
 .mb{
     margin-bottom:0.8rem;
 }
@@ -69,18 +47,18 @@
 }
 
 .wish-add{
-    background-color: var(--light-pink) !important;
-    color:var(--violet) !important;
-    border:none !important;
+    background-color: var(--light-pink) ;
+    color:var(--violet) ;
+    border:none ;
 }
 
-.card-btn-2{
+.wish-normal{
     background-color: transparent;
     color: var(--violet);
     border:1px solid var(--violet);
 }
 
-.card-btn-1{
+.cart-normal{
     color: var(--container-border-white);
     background-color:var(--dark-blue);
 }
@@ -92,8 +70,8 @@
 }
 
 .cart-add{
-    background-color: var(--container-border-white) !important;
-    color:var(--dark-blue) !important;
+    background-color: var(--container-border-white) ;
+    color:var(--dark-blue) ;
     border:1px solid var(--dark-blue);
 }
 
