@@ -121,3 +121,6 @@
     cursor: pointer;
 }
 
+.nav .logo img{
+    height: 50px;
+}
