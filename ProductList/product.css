@@ -97,4 +97,27 @@
     border:1px solid var(--dark-blue);
 }
 
+.nav .btn-primary{
+    padding:0.6em 0.8em;
+}
+
+.nav .badge{
+    margin:0 1em;
+}
+
+.nav .cart-icon{
+    margin-left: 0;
+}
+
+.nav .badge i{
+    font-size: 1.7em;
+    color: var(--light-pink);
+}
+
+.nav .brand{
+    text-decoration: none;
+}
+.nav .badge a{
+    cursor: pointer;
+}
 
