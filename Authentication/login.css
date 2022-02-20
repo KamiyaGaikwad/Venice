@@ -3,7 +3,7 @@
 .white-box{
     background-color: var(--white);
     width:20rem;
-    border:1px solid var(--dark-blue);
+    border:1px solid var(--hot-pink);
     padding: 1rem;
     margin:7rem auto;
 }
@@ -15,7 +15,7 @@
 .white-box-signup{
     background-color: var(--white);
     width:20rem;
-    border:1px solid var(--dark-blue);
+    border:1px solid var(--hot-pink);
     padding: 2rem;
     margin:2rem auto;
 }
@@ -29,7 +29,7 @@
 }
 
 .white-box-signup .btn-link,.white-box .btn-link{
-    color:var(--dark-blue);
+    color:var(--hot-pink);
     display: block;
     margin-left:6rem;
     font-size:1.2rem;
