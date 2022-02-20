@@ -166,3 +166,7 @@ background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, F
 .tdn{
     text-decoration-line: none;
 }
+
+.nav .logo img{
+    height: 50px;
+}
