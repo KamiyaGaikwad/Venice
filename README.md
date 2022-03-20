@@ -6,4 +6,4 @@ Venice is a E-commerce App for shopping 7 colors theme of jackets.
 https://venice-app.netlify.app/
 
 ## Preview
-![Desktop View](Images/desktop-preview.PNG)
+![Desktop View](src/Images/desktop-preview.PNG)
